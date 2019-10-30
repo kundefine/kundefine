@@ -1,0 +1,89 @@
+
+.nav-full-width {
+
+}
+#bottomNav {
+    position: fixed;
+    bottom: -100%;
+    width: 100%;
+    box-shadow: 0px 0px 5px #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    display: none;
+    background-color: #fff;
+    z-index: 100;
+    animation: slideIn 0.5s ease-in-out forwards 1;
+    transition: all 1s;
+}
+@keyframes slideIn {
+    form {
+        bottom: -100%;
+        display: none;
+    }to {
+        bottom: 0px;
+        display: flex;
+    }
+}
+@keyframes slideInRes {
+    form {
+        bottom: -100%;
+    }to {
+         bottom: 45px;
+     }
+}
+
+.toggleNav {
+    position: fixed;
+    bottom: 10px;
+    padding: 15px;
+    left: 10px;
+    z-index: 200;
+    cursor: pointer;
+}
+#bottomNav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+#bottomNav ul li{}
+#bottomNav ul li a{
+    color: deepskyblue;
+    display: inline-block;
+	margin-bottom: 8px;
+}
+#bottomNav ul li a:hover {
+	color: #607D8B;
+}
+#bottomNav ul li a.active {
+    color: #607D8B;
+}
+#toggleNav .dotline {
+    width: 25px;
+    border-bottom: 2px solid #1a73e8;
+    display: flex;
+    height: 5px;
+}
+#toggleNav.active .dotline {
+    border-bottom: 2px solid deepskyblue;
+}
+#navOverlap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: transparent;
+    display: none;
+}
+h1{
+    margin: 0;
+}
+
+.section {
+    height: 100vh;
+
+}

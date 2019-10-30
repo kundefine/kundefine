@@ -1,0 +1,74 @@
+body {
+    background: #222;
+}
+.section {
+    border-bottom: 3px solid #252829;
+}
+
+.content {
+    background-color: #252829;
+}
+
+.left-relative-content {
+    background: #232425;
+    color: #fff;
+    box-shadow: 0px 0px 5px #0c0c0c;
+}
+
+.info p {
+    color: #fff;
+}
+
+.my-social-title h1 {
+    color: #fff;
+}
+
+#bottomNav {
+    box-shadow: 0px 0px 5px #000000;
+    background-color: #181819;
+}
+
+.single-portfolio {
+    background-color: #000;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+
+.single-portfolio div.description h4 {
+    color: #fff;
+}
+
+.my-skill p {
+    background-color: #000;
+    color: #fff;
+}
+
+.my-skill-title h1 {
+    color: #fff;
+}
+.spinloader::before {
+    background: #252829;
+}
+
+@keyframes logoAnimation {
+    0% {stroke-dashoffset: -550px;stroke: rgb(0,0,255);}
+    10% {stroke: rgb(0,255,0);}
+    30% {stroke: rgb(255,0,0);}
+    40%, 100% {stroke: rgb(255,255,255); stroke-dashoffset: 0;}
+}
+
+.resFeedback {
+    color: #fff;
+    opacity: 0.13;
+}
+.your-name-con {
+    background: rgba(8, 8, 8, 0.9);
+}
+
+@media only screen and (max-width: 1023px) {
+    .all-portfolio {
+        border: 1px solid #000;
+    }
+    #toggleNav {
+        background: #181819;
+    }
+}
